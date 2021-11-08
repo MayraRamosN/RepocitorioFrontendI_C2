@@ -4,93 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FrontCat&Dog</title>
+    <title>Pet Shop</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/2104bcfc40.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <header>
-    <div>
-      <a href="">Grandes Ofertas en Comederos</a>
-   </div>
-  <ul>
-        <li type ="none"></li>
-          <select>
-             <option>Español</option>
-            <option>English</option>
-  </select>
-  <li type ="none">
-    <select>
-      <option> ARG$</option>
-      <option >USD</option>
-    </select>
-  </li>
-      </ul>
-    </div>
-    <nav>
-      <nav-brand>
-        <img src="" alt="">FrontCat&Dog
-      </nav-brand>
-    </nav>
-    <ul>
-      <li type="None">
-        <a href"">
-          <img src="" alt=""/>Categorias
-        </a>
-      </li>
-      <li type="None">
-        <a href"">
-          <img src="" alt=""/>Pets
-        </a>
-      </li>
-      <li type="None">
-        <a href"">
-          <img src="" alt=""/>Nosotros
-        </a>
-      </li>
-      <li type="None">
-        <a href"">
-          <img src="" alt=""/>Contactenos
-        </a>
-      </li>
-    </ul>
-  </header>
   <body>
-    <section>
-      <div>
-        <h2> ¡Es un placer tenerte aqui!</h2>
-        <h3>¡Comederos en descuento!</h3>
-        <button>COMEDEROS</button>
+    <header>
+      <div class="fondo">
+        <div class="white">Grandes Ofertas en Comederos</div>
+        <div>
+          <select>
+            <option>Español</option>
+            <option>English</option>
+          </select>
+          <select>
+            <option>ARG$</option>
+            <option>USD</option>
+          </select>
+        </div>
+      </div>
+      <nav class="navegacion">
+        <div class="titulo">
+          <img src="img/cat.png" alt="Gato" /> <span class="brown">Front</span
+          ><span class="white">Cat&Dog</span>
+          <img src="img/dog.png" alt="Gato" />
+        </div>
+        <ul>
+          <li type="None">
+            <a href="#"> <i class="fas fa-paw"></i>Categorias </a>
+          </li>
+          <li type="None">
+            <a href="#"> <i class="fas fa-paw"></i>Pets </a>
+          </li>
+          <li type="None">
+            <a href="#"> <i class="fas fa-paw"></i>Nosotros </a>
+          </li>
+          <li type="None">
+            <a href="#"> <i class="fas fa-paw"></i>Contactenos </a>
+          </li>
+        </ul>
+      </nav>
+    <section class="centrar">
+      <h1 class="titulo2">¡Es un placer tenerte aqui!</h1>
+      <div class="imagen">
+        <p class="comederos1">¡Comederos en descuento!</p>
+        <span class="comederos2 white">COMEDEROS</span>
       </div>
     </section>
- <section>
-   <h1 aling="center">Productos Destacados</h1>
-   <h2 aling="center">Comederos - Accesorio- Comida </h2>
- <div>
-   <div>
-     <img/>
-     <h2>Juguete Churrasquito</h2>
-     <h2> $150</h2>
-   </div>
-   <div>
-    <img/>
-    <h2>Comedero para Perro</h2>
-    <h2> $250</h2>
-  </div>
-  <div>
-    <img/>
-    <h2>Juguete Huesito</h2>
-    <h2> $650</h2>
-  </div>
- </div>
-</section>
-<section>
-  <!-- Etiqueta para formularios -->
-  <h2>Contáctenos</h2>
-  <form action="">
-    <input type="text" placeholder="Nombre y Apellido"><br>
-    <input type="email" placeholder="Ingresá tu correo electrónico"><br>
-    <input type="number" placeholder="Teléfono"><br>
-    <button>Resetear</button>
-    <button>Enviar</button>
-  </form>
-</section>
+    <section class="fondo-productos">
+      <h2>Productos Destacados</h2>
+        Comederos - Accesorio- Comida
+      <li class="sinpunto">
+        <ul>
+          <img src="img/huesitos.png" alt="churrasquito"/>
+          <p>Juguete churrasquito</p>
+          <p class="precio">$150</p> 
+        </ul>
+        <ul>
+          <img src="img/huesitos.png" alt="churrasquito"/>
+          <p>Juguete churrasquito</p>
+          <p class="precio">$150</p> 
+        </ul>
+        <ul>
+          <img src="img/huesitos.png" alt="churrasquito"/>
+          <p>Juguete churrasquito</p>
+          <p class="precio">$150</p> 
+        </ul>
+      </li>
+      
+    </section>
+    <section class="fondocont">
+      <!-- Etiqueta para formularios -->
+      <h2>Contáctenos</h2>
+      <form action="">
+        <input type="text" placeholder="Nombre y Apellido" /><br />
+        <input type="email" placeholder="Ingresá tu correo electrónico" /><br />
+        <input type="number" placeholder="Teléfono" /><br />
+        <button>Resetear</button>
+        <button>Enviar</button>
+      </form>
+    </section>
+    <footer class="fondocont">
+      <a href="https://github.com/MayraRamosN" target="_blank">
+        <img class="icono" src="./img/github.png" alt="github"
+      /></a>
+      <a
+        href="https://www.facebook.com/profile.php?id=1015505616"
+        target="_blank"
+      >
+        <img class="icono" src="./img/fb.png" alt="Facebook" />
+      </a>
+      <a href="https://www.linkedin.com/in/mayralejandra/" target="_blank">
+        <img class="icono" src="./img/linkd.png" alt="linkedin" />
+      </a>
+      <p class="fondo3">Todos los derechos reservados</p>
+    </footer>
   </body>
 </html>

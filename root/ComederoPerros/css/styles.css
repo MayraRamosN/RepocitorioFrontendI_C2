@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  background-color: rgb(169, 128, 196);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.icono {
+  width: 90px;
+}
+.fondo {
+  background-color: #222222;
+}
+.navegacion {
+  background-color: #f0a83e;
+}
+.navegacion a {
+  color: #fff;
+  text-decoration: none;
+}
+.titulo {
+  font-weight: bold;
+  font-size: larger;
+}
+.titulo2 {
+  font-size: 40px;
+}
+.brown {
+  color: #3c2313;
+}
+.white {
+  color: #fff;
+}
+.centrar {
+  text-align: center;
+}
+.imagen {
+  background-image: url("../img/Colorverdemanzana.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+}
+.comederos1 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+.comederos2 {
+  background-color: #f0a83e;
+}
+.fondo-productos {
+  background-color: #fbfaf6;
+}
+.sinpunto {
+  list-style: none;
+}
+.precio {
+  color: #f0a83e;
+  font-weight: bold;
+}
+
+.fondocont {
+  background-color: #3c2313;
+  color: #fff;
+}
+
+.fondo3 {
+  background-color: #f0a83e;
+  text-align: center;
+}
