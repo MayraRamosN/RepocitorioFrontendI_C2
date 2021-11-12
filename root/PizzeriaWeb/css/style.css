@@ -1,0 +1,45 @@
+.lista {
+  display: inline;
+  color: white;
+  margin: 10px;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0%;
+  height: 100px;
+}
+
+.segundobloque {
+  display: inline-block;
+  width: 25px;
+}
+
+.segundocontenedor {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  font-style: bold;
+  background-color: white;
+  padding: 0%;
+  height: 100px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 0%;
+  height: 100px;
+}
+.espacio {
+  height: 50px;
+}
+
+.pizza {
+  position: right;
+}
