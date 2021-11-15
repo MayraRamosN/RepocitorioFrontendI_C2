@@ -11,10 +11,17 @@ body {
   width: 90px;
 }
 .fondo {
+  display: flex;
+  justify-content: space-between;
   background-color: #222222;
+  padding: 5px 10px;
 }
 .navegacion {
+  display: flex;
+  justify-content: space-between;
   background-color: #f0a83e;
+  height: 60px;
+  align-items: center;
 }
 .navegacion a {
   color: #fff;
@@ -23,9 +30,13 @@ body {
 .titulo {
   font-weight: bold;
   font-size: larger;
+  padding-left: 25px;
 }
 .titulo2 {
   font-size: 40px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 .brown {
   color: #3c2313;
@@ -41,23 +52,40 @@ body {
   background-position: center center;
   background-size: cover;
   height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contenedor-titulo {
+  padding-right: 20px;
+}
+.imagen span {
+  display: inline-block;
+  margin-top: 20px;
 }
 .comederos1 {
-  padding-top: 20px;
   font-weight: bold;
 }
 .comederos2 {
   background-color: #f0a83e;
+  padding: 10px 20px;
 }
 .fondo-productos {
   background-color: #fbfaf6;
+  margin: 0;
+  padding: 0;
 }
 .sinpunto {
+  display: flex;
   list-style: none;
+  justify-content: space-around;
 }
 .precio {
   color: #f0a83e;
   font-weight: bold;
+}
+.separador {
+  margin-left: 30px;
 }
 
 .fondocont {
@@ -68,4 +96,27 @@ body {
 .fondo3 {
   background-color: #f0a83e;
   text-align: center;
+}
+
+.menu-horizontal {
+  display: flex;
+}
+
+.menu-horizontal li {
+  padding: 0 10px;
+}
+.menu-horizontal i {
+  padding-right: 5px;
+}
+.tamano-pata {
+  padding-top: 20px;
+  font-size: 60px;
+  color: #f0a83e;
+}
+.subtitulo {
+  font-size: 40px;
+}
+.name {
+  color: #3c2313;
+  font-weight: bold;
 }

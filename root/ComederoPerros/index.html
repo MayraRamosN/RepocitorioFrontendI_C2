@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Shop</title>
     <link href="css/styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/2104bcfc40.js"
       crossorigin="anonymous"
@@ -35,7 +38,7 @@
           ><span class="white">Cat&Dog</span>
           <img src="img/dog.png" alt="Gato" />
         </div>
-        <ul>
+        <ul class="menu-horizontal">
           <li type="None">
             <a href="#"> <i class="fas fa-paw"></i>Categorias </a>
           </li>
@@ -50,34 +53,39 @@
           </li>
         </ul>
       </nav>
-    <section class="centrar">
-      <h1 class="titulo2">¡Es un placer tenerte aqui!</h1>
-      <div class="imagen">
-        <p class="comederos1">¡Comederos en descuento!</p>
-        <span class="comederos2 white">COMEDEROS</span>
-      </div>
-    </section>
-    <section class="fondo-productos">
-      <h2>Productos Destacados</h2>
+      <section class="centrar">
+        <div class="imagen">
+          <div class="contenedor-titulo">
+            <div><span class="titulo2">¡Es un placer tenerte aqui!</span></div>
+            <div><span class="comederos1">¡Comederos en descuento!</span></div>
+            <div><span class="comederos2 white">COMEDEROS</span></div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section>
+      <div class="centrar">
+        <i class="fas fa-paw tamano-pata"></i>
+        <h2 class="subtitulo">Productos Destacados</h2>
         Comederos - Accesorio- Comida
+      </div>
       <li class="sinpunto">
-        <ul>
-          <img src="img/huesitos.png" alt="churrasquito"/>
-          <p>Juguete churrasquito</p>
-          <p class="precio">$150</p> 
+        <ul class="fondo-productos centrar">
+          <img src="img/huesitos.png" alt="churrasquito" />
+          <p class="name">Juguete churrasquito</p>
+          <p class="precio">$150</p>
         </ul>
-        <ul>
-          <img src="img/huesitos.png" alt="churrasquito"/>
-          <p>Juguete churrasquito</p>
-          <p class="precio">$150</p> 
+        <ul class="fondo-productos centrar separador">
+          <img src="img/alimento.png" alt="churrasquito" />
+          <p class="name">Comedero para perro</p>
+          <p class="precio">$250</p>
         </ul>
-        <ul>
-          <img src="img/huesitos.png" alt="churrasquito"/>
-          <p>Juguete churrasquito</p>
-          <p class="precio">$150</p> 
+        <ul class="fondo-productos centrar separador">
+          <img src="img/comida.png" alt="churrasquito" />
+          <p class="name">Juguete Huesito</p>
+          <p class="precio">$650</p>
         </ul>
       </li>
-      
     </section>
     <section class="fondocont">
       <!-- Etiqueta para formularios -->
