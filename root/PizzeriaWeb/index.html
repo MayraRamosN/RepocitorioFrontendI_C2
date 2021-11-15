@@ -6,40 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza&Front</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <div>
-        <img src="img/logopizza.png" />
-        <nav>
-          <ul type="none">
-            <li class="lista">Home</li>
-            <li class="lista">Ranking</li>
-            <li class="lista">Promocion</li>
-            <li class="lista">Contacto</li>
-          </ul>
-        </nav>
-      </div>
+      <img src="img/logopizza.png" />
+      <nav>
+        <ul class="lista" type="none">
+          <li>Home</li>
+          <li>Ranking</li>
+          <li>Promocion</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
     </header>
-    <div class="espacio">
+    <div class="contenedor">
+      <div class="segundobloque">
+        <p class="roja">
+          Envio gratis <span class="blanco">Comprando</span> 2 pizzas
+        </p>
+        <img src="./img/delivery.jpg" />
+      </div>
+      <div class="segundocontenedor">
+        <h2 class="titulo">Podio de Pizzas</h2>
+        <div class="contenido">
+          <div>
+            <h3>Pizzas top 5</h3>
+            <ol type="1">
+              <li>Mozarella</li>
+              <li>Hawaiana</li>
+              <li>Pollo</li>
+              <li>Peperoni</li>
+              <li>Vegetariana</li>
+            </ol>
+          </div>
+          <div class="espacio"><img class src="./img/PizzaFalling.jpg" /></div>
+        </div>
+      </div>
     </div>
-    <div class="segundobloque">
-      <img src="./img/delivery.jpg" />
-    </div>
-    <div class="segundocontenedor">
-      <h2>Podio de Pizzas</h2>
-      <ol type="1">
-        <li>Mozarella</li>
-        <li>Hawaiana</li>
-        <li>Pollo</li>
-        <li>peperoni</li>
-        <li>vegetariano</li>
-        <img src="./img/PizzaFalling.jpg">
-    </div>
+    <footer class="footer">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contacto</li>
+          <li>Ranking</li>
+          <li>Promoción</li>
+        </ul>
+      </nav>
+      <img src="img/logopizza.png" />
+    </footer>
   </body>
-  <div class="espacio">
-  </div>
-  <footer class="footer">
-    <img class="Pizza" src="img/logopizza.png" />
-  </footer>
 </html>
