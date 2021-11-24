@@ -5,10 +5,28 @@
   color: black;
 }
 
+.navegacion {
+  background-color: #001d2d;
+  display: flex;
+  justify-content: flex-end;
+}
+
 body,
 html {
   height: 100vh;
   width: 100vw;
+}
+
+.navegacion ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.navegacion a {
+  color: white;
+  text-decoration: none;
 }
 
 body {
@@ -28,6 +46,18 @@ body {
   font-size: 40px;
   font-weight: bold;
   padding: 28px;
+}
+.titulo2 {
+  background-color: #00669f;
+  width: 100%;
+  padding: 28px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.titulo2 span {
+  color: #fff;
+  font-size: 1.3rem;
 }
 .header {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 8px;
@@ -59,6 +89,9 @@ body {
   display: inline-block;
 }
 
+.centrar2 {
+  margin-top: 80px;
+}
 .boton {
   padding: 15px 37px;
   background-color: #00669f;
@@ -100,9 +133,60 @@ body {
 
 .footer {
   padding: 16px;
-  margin-top: 20px;
+  margin-top: 50px;
+  text-align: center;
   color: #fff9f9;
   background-color: #00669f;
+}
+
+button {
+  margin: 20px;
+  border-radius: 2rem;
+  height: 50px;
+  width: 250px;
+  flex: 0 0 200px;
+  margin-left: 0px;
+}
+
+#reset {
+  background-color: rgba(136, 136, 136, 1);
+  color: white;
+}
+
+#submit {
+  background-color: rgba(28, 209, 176, 1);
+  color: black;
+}
+.colorenlace {
+  text-decoration: none;
+  color: blue;
+}
+.tamano {
+  padding: 1rem 0;
+}
+.formulario {
+  width: 55vw;
+  margin: auto;
+}
+.formulario label {
+  display: none;
+}
+.formulario input,
+.formulario select {
+  width: 100%;
+  padding: 1rem;
+}
+.botones {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+textarea {
+  width: 100%;
+  height: 30vh;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
 }
 
 @media (max-width: 700px) {
