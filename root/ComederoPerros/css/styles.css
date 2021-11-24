@@ -1,5 +1,12 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
+  width: 100vw;
 }
 .footer {
   background-color: rgb(169, 128, 196);
@@ -33,7 +40,7 @@ body {
   padding-left: 25px;
 }
 .titulo2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   background-color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -71,6 +78,8 @@ body {
   padding: 10px 20px;
 }
 .fondo-productos {
+  display: flex;
+  flex-direction: column;
   background-color: #fbfaf6;
   margin: 0;
   padding: 0;
@@ -119,4 +128,42 @@ body {
 .name {
   color: #3c2313;
   font-weight: bold;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .fondo{
+    display: none;
+  }
+  .titulo2{
+    font-size: 1.5rem;
+  }
+  .sinpunto {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: fit-content;
+  }
+  .contenedor-titulo{
+    width: 100vw;
+    padding-right:0;
+  }
+  .menu-horizontal{
+    display: none;
+  }
+  .texto-espacio{
+    word-spacing: 1rem;
+    padding: 1.5rem 0;
+  }
+  .separador{
+    margin-left: 0;
+  }
+  .fondo-productos{
+    margin-bottom: 2.5rem;
+    width: 80vw;
+  }
 }
