@@ -189,6 +189,29 @@ textarea {
   color: gray;
 }
 
+#submit:hover {
+  background-color: salmon;
+  border: 3px solid blue;
+  cursor: pointer;
+}
+
+.pass::before {
+  content: "Probando ::before (Antes)!!!!";
+  color: rgb(179, 21, 152);
+  font-size: 1.5rem;
+}
+
+.pass::after {
+  content: "Probando :: after (despues)!!!!";
+  color: rgb(78, 13, 153);
+  font-size: 1.5rem;
+}
+
+li:nth-child(1) {
+  border-radius: 15px;
+  background-color: purple;
+}
+
 @media (max-width: 700px) {
   .heart {
     top: 10px;
