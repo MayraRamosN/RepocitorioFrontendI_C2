@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+header,
+.block-1,
+.block-2,
+.block-3 {
+  padding: 0 3rem;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+}
+.header li {
+  padding: 0 1rem;
+}
+.header a {
+  text-decoration: none;
+  color: #242e52;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: #f3603b;
+  color: #fff;
+  border-radius: 1.4rem;
+  border-style: none;
+  padding: 0.85rem 2rem;
+  font-size: 1rem;
+  box-shadow: 5px 7px 11px -4px rgba(0, 0, 0, 0.5);
+}
+.block-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7rem;
+  align-items: center;
+}
+.block-1 h1 {
+  font-size: 3rem;
+}
+.block-1 p {
+  padding: 1.5rem 0;
+}
+.block-1 div:nth-child(1) {
+  padding-right: 3rem;
+  /* width: 50%; */
+}
+.block-1 div:nth-child(2) {
+  padding-left: 3rem;
+  /* width: 50%; */
+}
+.block-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7rem;
+}
+.block-2 h2 {
+  font-size: 2rem;
+}
+.block-2-left {
+  padding-right: 3rem;
+  width: 50%;
+}
+.block-2-left p {
+  padding: 1.5rem 0 0;
+  width: 70%;
+}
+.block-2-right {
+  padding-left: 3rem;
+  width: 50%;
+  padding-left: 40px;
+}
+.block-2-right p {
+  color: #b3b2b7;
+  padding-bottom: 2.5rem;
+}
+.block-2-right h4 {
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+.block-2-right ol {
+  list-style: none;
+  counter-reset: count;
+}
+.block-2-right ol li {
+  counter-increment: count;
+  position: relative;
+}
+.block-2-right ol li::before {
+  content: "0" counter(count);
+  font-weight: bold;
+  position: absolute;
+  top: -0.5rem;
+  left: -5rem;
+  background-color: #f3603b;
+  color: #fff;
+  border-radius: 1.5rem;
+  border-style: none;
+  padding: 0.5rem 1.5rem;
+}
+.block-3 {
+  padding-top: 4rem;
+}
+.block-3 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.block-3 ul {
+  display: flex;
+  list-style: none;
+  background-color: #fafafa;
+}
+.block-3 h5 {
+  padding: 4rem 0 2rem;
+}
+.block-3 ul p {
+  color: #b3b2b7;
+  text-align: center;
+  padding: 0 1.5rem 1.5rem;
+}
+#subtitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 4rem;
+  color: #000;
+}
+.block-3 ul img {
+  width: 5rem;
+  position: absolute;
+  top: -2.5rem;
+}
+.button-middle {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 8rem;
+}
+.block-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  background-color: #f3603b;
+  padding: 2rem 4rem;
+}
+.block-4 button {
+  background-color: #fff;
+  color: #f3603b;
+}
+.block-4 p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 30rem;
+}
+footer {
+  padding: 5rem 0;
+  background: #1e1e26;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+}
+.social-icons {
+  padding-top: 4rem;
+  text-align: center;
+}
+.social-icons img {
+  padding-left: 0.3rem;
+}
+.page-links{
+  display: flex;
+}
+.page-links a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.page-links a:hover{
+  text-decoration: underline;
+}
+.page-links ul{
+  list-style: none;
+}
+.page-links nav:nth-child(1){
+  padding-right: 7rem;
+}
+.email-form input{
+  border-radius: 1rem;
+  padding:0.8rem;
+}
+.email-form p{
+  font-size:0.8rem;
+  padding-top: 5rem;
+}
