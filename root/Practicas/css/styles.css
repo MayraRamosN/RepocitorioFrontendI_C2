@@ -1,0 +1,81 @@
+a:visited {
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 1000px;
+}
+
+a:hover {
+  color: rgb(207, 46, 186);
+  font-weight: bold;
+  font-size: 1000px;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  font-weight: bold;
+  font-size: 1000px;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link {
+  color: red;
+  font-weight: bold;
+  font-size: 1000px;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* input:focus {
+  color: blueviolet;
+  font-style: italic;
+} */
+/* 
+input:disabled {
+  color: brown;
+  font-style: oblique;
+  font-size: xx-large;
+} */
+
+/* input:target {
+  color: yellow;
+  font-style: oblique;
+  text-decoration: underline;
+} */
+
+div ::before {
+  content: "Esto va antes!!!!";
+  color: tomato;
+}
+
+div ::after {
+  content: "Esto va despues!!!!";
+  color: gold;
+}
+
+li:nth-child(1) {
+  border-radius: 15px;
+  background-color: red;
+}
+
+@keyframes fantasma {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    transform: translateY(-20px);
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+.ghost {
+  width: 15vw;
+}
+.fantasma {
+  width: 0%;
+  height: 0%;
+  animation: fantasma 5s infinite;
+}
